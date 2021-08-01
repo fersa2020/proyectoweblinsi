@@ -1,0 +1,23 @@
+{
+  "name": "proyectoweblinsi",
+  "version": "1.0.0",
+  "description": "proyecto de certificado de alumno regular con blockchain.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fersa2020/proyectoweblinsi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fersa2020/proyectoweblinsi/issues"
+  },
+  "homepage": "https://github.com/fersa2020/proyectoweblinsi#readme",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}
