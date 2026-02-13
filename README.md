@@ -2,13 +2,20 @@
 
 Proyecto de certificado de alumno regular con blockchain.
 
+## ❓ ¿Es difícil usar Google Cloud para desplegar?
+
+**¡NO!** Lee la [RESPUESTA COMPLETA aquí](RESPUESTA.md)
+
 ## 🚀 Despliegue en Google Cloud
 
 **¿Es difícil desplegar en Google Cloud?** ¡No! Este proyecto incluye todo lo necesario para desplegar fácilmente.
 
 ### 📖 Documentación Completa
 
-Lee la [Guía de Despliegue en Google Cloud](DEPLOY_GOOGLE_CLOUD.md) para instrucciones detalladas.
+- **[¿Es difícil? - Respuesta Completa](RESPUESTA.md)** ⭐ Empieza aquí
+- **[Guía de Despliegue en Google Cloud](DEPLOY_GOOGLE_CLOUD.md)** - Documentación detallada
+- **[Inicio Rápido](QUICKSTART.md)** - Despliega en 5 minutos
+- **[Comparación de Opciones](DEPLOYMENT_COMPARISON.md)** - Elige la mejor opción
 
 ### ⚡ Despliegue Rápido
 
