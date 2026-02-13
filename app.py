@@ -41,8 +41,8 @@ def info():
     """Información de configuración"""
     return jsonify({
         'port': PORT,
-        'database_url': DATABASE_URL[:20] + '...' if len(DATABASE_URL) > 20 else DATABASE_URL,
-        'environment': os.environ.get('NODE_ENV', 'development')
+        'database_configured': DATABASE_URL != 'no-configurada',
+        'environment': os.environ.get('PYTHON_ENV', 'development')
     })
 
 

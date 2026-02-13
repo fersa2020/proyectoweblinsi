@@ -25,8 +25,21 @@ echo "  - Región: $REGION"
 echo ""
 read -sp "🔐 Ingresa la contraseña ROOT para la instancia: " ROOT_PASSWORD
 echo ""
+
+# Validar contraseña ROOT
+if [ -z "$ROOT_PASSWORD" ]; then
+    echo "❌ Error: La contraseña ROOT no puede estar vacía"
+    exit 1
+fi
+
 read -sp "🔐 Ingresa la contraseña para el usuario $DB_USER: " USER_PASSWORD
 echo ""
+
+# Validar contraseña de usuario
+if [ -z "$USER_PASSWORD" ]; then
+    echo "❌ Error: La contraseña del usuario no puede estar vacía"
+    exit 1
+fi
 
 # Configurar proyecto
 gcloud config set project "$PROJECT_ID"
