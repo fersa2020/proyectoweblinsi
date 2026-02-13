@@ -1,0 +1,23 @@
+# Archivos a ignorar en la construcción de Docker
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+.git
+.github
+.gitignore
+README.md
+DEPLOY_GOOGLE_CLOUD.md
+*.md
+.env
+.venv
+venv/
+env/
+.DS_Store
+*.log
