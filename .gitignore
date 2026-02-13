@@ -1,0 +1,21 @@
+# Archivos a ignorar en Git
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.log
+.DS_Store
+.env
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
